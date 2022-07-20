@@ -27,7 +27,6 @@ var upload = multer({
     })
 });
 
-
 //open in browser to see upload form
 app.get('/', function (req, res) {
     res.sendFile(__dirname + '/index.html');//index.html is inside node-cheat
